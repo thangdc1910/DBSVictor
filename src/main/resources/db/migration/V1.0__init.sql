@@ -1,0 +1,7 @@
+CREATE TABLE BANK_ACCOUNT
+(id INTEGER NOT NULL  AUTO_INCREMENT,
+ firstname VARCHAR(255) NOT NULL ,
+ lastname  VARCHAR(255) NOT NULL ,
+ balance   DOUBLE NOT NULL,
+  primary key (id)
+);
